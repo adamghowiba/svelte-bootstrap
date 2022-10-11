@@ -7,22 +7,10 @@ const config: UserConfig = {
 	css: {
 		preprocessorOptions: {
 			scss: {
-				additionalData: '@use "src/variables.scss" as *;'
+				// additionalData: '@use "src/variables.sass" as *'
 			}
 		}
 	}
 };
 
 export default config;
-
-// const config = {
-// 	css: {
-// 		preprocessorOptions: {
-// 			scss: {
-// 				additionalData: '@use "src/variables.scss" as *;'
-// 			}
-// 		}
-// 	}
-// };
-
-// export default config;
